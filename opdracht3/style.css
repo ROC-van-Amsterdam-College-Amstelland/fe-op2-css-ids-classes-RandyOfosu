@@ -1,2 +1,30 @@
-
-
+* {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: pink;
+}
+ul {
+  text-decoration: non;
+  display: flex;
+  flex-direction: row;
+}
+header nav ul li {
+  background-color: black;
+  list-style-type: none;
+  color: white;
+  width: 100px;
+  height: 50px;
+}
+ul li:hover {
+  background-color: red;
+}
+footer nav ul li {
+  background-color: red;
+  list-style-type: none;
+  color: white;
+  width: 100px;
+  height: 50px;
+}
+footer nav ul li:hover {
+  background-color: black;
+}
